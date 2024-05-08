@@ -29,6 +29,11 @@
   color: var(--main-text-color);
 }
 
+#trailhead-image {
+  width: 45px;
+  height: 45px;
+}
+
 #bio-container {
   flex: 1 1 20%;
   min-height: 100vh;
@@ -67,6 +72,7 @@
   display: flex;
   justify-content: center;
   list-style: none;
+  align-items: center;
   border-bottom: 1px solid var(--border-color);
   margin-bottom 25px;
   padding-bottom 25px;
@@ -85,6 +91,7 @@
 #email-container {
   display: flex;
   justify-content: center;
+  padding-top: 10px;
 }
 
 #email-container ion-icon, #email-container a {
