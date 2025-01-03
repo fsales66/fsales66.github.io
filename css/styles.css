@@ -233,3 +233,44 @@
     font-size: 60px;
   }
 }
+
+/* Botões alinhados */
+#btn-container {
+  display: flex;
+  gap: 10px; /* Espaço entre os botões */
+  justify-content: flex-start; /* Alinha os botões à esquerda */
+}
+
+#btn-container a {
+  text-decoration: none;
+}
+
+#btn-repository {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--main-text-color);
+  background-color: var(--main-color);
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+  padding: 12px 10px;
+  width: 150px;
+  text-align: center;
+  display: flex;
+}
+
+#btn-repository ion-icon,
+#btn-repository span {
+  flex: 1 1 0;
+}
+
+#btn-repository ion-icon {
+  font-size: 20px;
+  max-width: 20px;
+}
+
+#btn-repository:hover {
+  background-color: transparent;
+}
+
