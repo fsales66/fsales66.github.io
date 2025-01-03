@@ -234,17 +234,7 @@
   }
 }
 
-/* Botões alinhados */
-#btn-container {
-  display: flex;
-  gap: 10px; /* Espaço entre os botões */
-  justify-content: flex-start; /* Alinha os botões à esquerda */
-}
-
-#btn-container a {
-  text-decoration: none;
-}
-
+/* Estilo do botão "Ver Repositório" */
 #btn-repository {
   font-weight: bold;
   font-size: 16px;
@@ -258,6 +248,8 @@
   width: 150px;
   text-align: center;
   display: flex;
+  align-items: center; /* Alinha o ícone e texto verticalmente */
+  justify-content: center; /* Centraliza o conteúdo do botão */
 }
 
 #btn-repository ion-icon,
@@ -273,4 +265,3 @@
 #btn-repository:hover {
   background-color: transparent;
 }
-
