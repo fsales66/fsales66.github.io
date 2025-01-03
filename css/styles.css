@@ -233,7 +233,14 @@
     font-size: 60px;
   }
 }
-
+/* Contêiner dos botões */
+#btn-container {
+  display: flex;
+  gap: 10px; /* Espaço entre os botões */
+  justify-content: center; /* Centraliza os botões */
+  align-items: center; /* Garante alinhamento vertical */
+  margin-top: 20px; /* Espaço acima do contêiner */
+}
 /* Estilo do botão "Ver Repositório" */
 #btn-repository {
   font-weight: bold;
